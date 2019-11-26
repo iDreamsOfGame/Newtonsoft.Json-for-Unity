@@ -2,6 +2,26 @@
 
 Json.NET is a popular high-performance JSON framework for .NET
 
+| ⚠ PACKAGE HAS MOVED TO A DIFFERENT REGISTRY ⚠ |
+| :---: |
+| Update your manifest.json with the new URL |
+
+```diff
+{
+    "scopedRegistries": [
+        {
+            "name": "Packages from jillejr",
+-           "url": "https://registry.npmjs.org/",
++           "url": "https://npm.cloudsmith.io/jillejr/newtonsoft-json-for-unity/",
+            "scopes": ["jillejr"]
+        }
+    ],
+    /.../
+}
+```
+
+---
+
 This package is a fork of Newtonsoft.Json containing custom builds targeting standalone, portable (UWP, WP8), and AOT targets such as all IL2CPP builds (iOS, WebGL, Android, Windows, Mac OS X, et.al).
 
 ## Versioning format

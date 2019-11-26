@@ -6,8 +6,21 @@
 
 - Setup CircleCI integration
 - Setup Codacy integration
-- Switched to [cloudsmith.com][cloudsmith-url] as registry provider
 - New versioning format. For more info see [the readme in the repository][readme-url]. Changes are based of off `12.0.1-patch-001` version _(in previous format)._
+- Switched to [cloudsmith.com][cloudsmith-url] as registry provider
+
+Change to the new registry by replacing the `url` property of the scopedRegistry inside your `/Packages/manifest.json` file.  
+Replace this line:
+
+```json
+           "url": "https://registry.npmjs.org/",
+```
+
+with this:
+
+```json
+           "url": "https://npm.cloudsmith.io/jillejr/newtonsoft-json-for-unity/",
+```
 
 ## 12.0.1-patch-001
 
