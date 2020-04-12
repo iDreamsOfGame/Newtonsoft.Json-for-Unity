@@ -1,0 +1,12 @@
+{
+	"name": "com.github.jillejr.newtonsoft.json.unity",
+	"displayName": "Netonsoft.Json",
+	"description": "Json.NET is a popular high-performance JSON framework for .NET",
+	"version": "12.0.301",
+	"unity": "2018.3",
+	"author": {
+		"name": "jilleJr",
+		"url": "https://github.com/jilleJr"
+	},
+	"license": "MIT"
+}
