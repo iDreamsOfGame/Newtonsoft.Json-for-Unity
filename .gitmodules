@@ -1,4 +1,4 @@
-[submodule "Assets/Newtonsoft.Json"]
+[submodule "upm"]
 	path = Assets/Newtonsoft.Json
 	url = https://github.com/iDreamsOfGame/Newtonsoft.Json-for-Unity.git
 	branch = upm
